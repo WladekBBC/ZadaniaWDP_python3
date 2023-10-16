@@ -68,15 +68,11 @@ def suma_liczb():
 suma_liczb()
 
 # 2.B
-def mnozenie()
-    n = int(input("Podaj liczbę: "))
-    wielomian_liczb = 1
-    for i in range(1, n + 1):
-        j = float(input(f" Podaj liczbę a{i} : "))
-        wielomian_liczb *= i
-    print("Mnożenie liczb od 1 do ", n, " wynosi: " , wielomian_liczb)
-mnozenie()
-
+m = int(input("Podaj liczbę: "))
+wielomian_liczb = 1
+for i in range(1, m + 1):
+    wielomian_liczb *= i
+print("Wielomian liczb od 1 do ", m, " wynosi: " , wielomian_liczb)
 
 
 # 2.C
@@ -178,7 +174,7 @@ def wyswiewl_kolejnosc():
         j = float(input(f"Podaj kolejną liczbe rzeczywistą a{i}: "))
         liczby.append(j)
 
-    przetasuje_liczby = liczby[2:] + [liczby[0]] + liczby[1:]
+    przetasuje_liczby = liczby[1:] + [liczby[0]]
 
     for liczba in przetasuje_liczby:
         print(liczba)
