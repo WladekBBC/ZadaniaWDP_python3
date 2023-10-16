@@ -68,11 +68,15 @@ def suma_liczb():
 suma_liczb()
 
 # 2.B
-m = int(input("Podaj liczbę: "))
-wielomian_liczb = 1
-for i in range(1, m + 1):
-    wielomian_liczb *= i
-print("Wielomian liczb od 1 do ", m, " wynosi: " , wielomian_liczb)
+def mnozenie()
+    n = int(input("Podaj liczbę: "))
+    wielomian_liczb = 1
+    for i in range(1, n + 1):
+        j = float(input(f" Podaj liczbę a{i} : "))
+        wielomian_liczb *= i
+    print("Mnożenie liczb od 1 do ", n, " wynosi: " , wielomian_liczb)
+mnozenie()
+
 
 
 # 2.C
